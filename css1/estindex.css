@@ -23,7 +23,7 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img1/bb.jpg);
+    background: url(../img1/fond6.jpg);
     background-size: cover;
 }
 
@@ -45,6 +45,28 @@ p
     color: #fff;
 }
 
+.border{
+  display: block;
+  font-size: 5em;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 17ch;
+overflow: hidden;
+border-right: solid 1px;
+font-weight: 600;
+    animation: tipado 4s steps(17) alternate infinite;
+     
+}
+
+@keyframes tipado{
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+} 
 .btn
 {
     font-size: 1em;
@@ -307,7 +329,7 @@ section
 
 .testimonials 
 {
-    background: url(../img1/bebesf.jpg);
+    background: url(../img1/pexels.jpg);
     background-size: cover;
 }
 
